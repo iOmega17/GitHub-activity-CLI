@@ -1,0 +1,31 @@
+# Maven target directory
+/target/
+
+# Logs
+*.log
+spring.log
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# VS Code files
+.vscode/
+
+# MacOS and Linux
+.DS_Store
+._*
+Thumbs.db
+
+# Allow the test folder to stay in the repository
+!src/test/
+!src/test/**
+
+# Ignore all compiled class files
+*.class
