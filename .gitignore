@@ -24,8 +24,8 @@ spring.log
 Thumbs.db
 
 # Allow the test folder to stay in the repository
-!src/test/
-!src/test/**
+src/test/
+src/test/**
 
 # Ignore all compiled class files
 *.class
